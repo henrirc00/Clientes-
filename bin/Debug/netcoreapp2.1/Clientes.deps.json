@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "6185a9dd103e0e6c5a78218e47a2e6d49eb5a4a4"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Clientes/1.0.0": {
+        "dependencies": {
+          "NetOffice.Excel.Net45": "1.7.4.4"
+        },
+        "runtime": {
+          "Clientes.dll": {}
+        }
+      },
+      "NetOffice.Core.Net45/1.7.4.4": {
+        "runtime": {
+          "lib/net45/NetOffice.dll": {
+            "assemblyVersion": "1.7.3.0",
+            "fileVersion": "1.7.3.0"
+          },
+          "lib/net45/OfficeApi.dll": {
+            "assemblyVersion": "1.7.3.0",
+            "fileVersion": "1.7.3.0"
+          },
+          "lib/net45/VBIDEApi.dll": {
+            "assemblyVersion": "1.7.3.0",
+            "fileVersion": "1.7.3.0"
+          }
+        }
+      },
+      "NetOffice.Excel.Net45/1.7.4.4": {
+        "dependencies": {
+          "NetOffice.Core.Net45": "1.7.4.4"
+        },
+        "runtime": {
+          "lib/net45/ExcelApi.dll": {
+            "assemblyVersion": "1.7.3.0",
+            "fileVersion": "1.7.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clientes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetOffice.Core.Net45/1.7.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sc4ut7jox736uUlhpAOcrrC7r3oIb7r0Dlyz/av5KPziz9bz86ysFSNGbdCrdQ09+74xO83d+4WNFogoUMIZUw==",
+      "path": "netoffice.core.net45/1.7.4.4",
+      "hashPath": "netoffice.core.net45.1.7.4.4.nupkg.sha512"
+    },
+    "NetOffice.Excel.Net45/1.7.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BekC1mMshVTFcjXAIytb/UyARXXdoXAN7Ynr407rrIyn6kFouehaaDm8sJ7r/T/yREYIk7Rja/CYpqBwKRgQeQ==",
+      "path": "netoffice.excel.net45/1.7.4.4",
+      "hashPath": "netoffice.excel.net45.1.7.4.4.nupkg.sha512"
+    }
+  }
+}
